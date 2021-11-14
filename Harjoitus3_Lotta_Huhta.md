@@ -1,5 +1,7 @@
 # Harjoitus3_Lotta_Huhta_Palvelintenhallinta
-## B)
+## 14:45 B)
+Git:n ja GitHubin käytössä hyödynnetty ohjetta: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners
+
 Muokkasin varastoa tekemällä sinne kaksi tiedostoa. Toinen niistä on nimeltään GitTest.txt ja toinen on HelloGit.txt. Tein nämä tiedostot Git-varastooni ajamalla komennot:
 ```
 touch GitTest.txt
@@ -51,7 +53,7 @@ Git varastoon päivitettiin kaksi tiedostoa:
 
 ![kuva](https://user-images.githubusercontent.com/82219338/141688747-23dfae43-50a3-46e6-b836-6344da9c420c.png)
 
-# B)
+# 15:30 B)
 Ajoin komennon:
 ```
 git log
@@ -77,7 +79,7 @@ Komento näyttää tiedostoon tehdyt muutokset
 
 Kuvasta näkyy muutoksen Id:n alkuosa, kuka on tehnyt muutoksen ja milloin ja mikä muutos on tehty.
 
-# C)
+# 16:30 C)
 Tein tyhmän muutoksen tiedostoon HelloGit.txt. 
 Ajoin komennot:
 ```
@@ -97,7 +99,7 @@ git status
 ```
 ![kuva](https://user-images.githubusercontent.com/82219338/141688988-4dde45e8-6124-4556-8519-dc90e7f935c7.png)
 
-# D)
+# 16:45 D)
 Tein tilatiedoston, jolla varmistetaan apache2 asennus ja päällä olon
 
 Ajoin komennon:
@@ -113,4 +115,25 @@ run apache2:
   service.running:
     - name: apache2
 ```
+# Valmis 17:00
 
+# Z
+```
+Artikkeli: https://commonmark.org/help/
+Markdown on tapa muotoilla teksti sopivaksi kaikille laitteille.
+
+Kirjoittamalla:
+kahden * merkin väliin sana muuttuu kursiiviksi
+** merkkien väliin sana tummenttuu
+# merkin jälkeen tulee otsikko
+## merkkien jälkeen tulee otsikko2
+kirjoittamalla [Link](URL) muodostuu linkki
+kirjoittamalla ![Image](URL) muodostuu kuva
+> merkin jälkeen muodostuu lohkoteksti
+* merkin jälkeen muodostuu lista
+1. jälkeen muodostuu numero lista
+--- muodostuu vaakaviiva
+Kahden ` merkin väliin muodostuu korostettu koodi
+``` merkkien väliin muodostuu koodilohko
+
+```
